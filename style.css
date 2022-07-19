@@ -1,4 +1,4 @@
-@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Inter&family=Poppins:wght@500&display=swap");
 
 * {
   /* margin: 0;
@@ -83,4 +83,123 @@ header {
   border: 1px solid rgb(225, 212, 212);
   border-radius: 50%;
   padding: 10px;
+}
+
+/* market place icon */
+
+.all-market-icon {
+  width: 1000px;
+  display: grid;
+  grid-template-columns: repeat(7, 1fr);
+  align-items: center;
+  margin: 80px auto;
+  border-top: 1px solid rgb(224, 219, 219);
+  border-bottom: 1px solid rgb(224, 219, 219);
+  padding: 35px;
+}
+
+/* all popular camera item start  */
+
+.all-card {
+  width: 1100px;
+  margin: 0 auto;
+}
+
+.all-card .card-heading-tittle {
+  text-align: center;
+  font-size: 28px;
+}
+
+.all-card .cards {
+  width: 1100px;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 15px;
+}
+.all-card .card {
+  box-shadow: 5px 10px 8px 10px #f3e8e8;
+  padding: 20px 0px;
+  border-radius: 10px;
+  padding-left: 28px;
+}
+
+.all-card .card .card-img {
+  border-radius: 10px;
+}
+
+.all-card .card-info h1 {
+  font-size: 28px;
+  margin-top: 16px;
+  margin-bottom: 0;
+}
+
+.all-card .card-info .price {
+  font-family: "Inter", sans-serif;
+  font-size: 24px;
+  margin-top: 6px;
+  margin-bottom: 8px;
+}
+
+.fa-star,
+.fa-star-half-stroke {
+  color: #fb8200;
+}
+
+.all-card .card-info p {
+  margin-top: 0;
+}
+.btn-2 {
+  color: #e02c6d;
+  width: 99px;
+  height: 24px;
+  border-radius: 41px;
+  border: none;
+  font-weight: bold;
+}
+
+.last-btn {
+  display: flex;
+  justify-content: flex-end;
+  margin-top: 30px;
+}
+
+/* gear section */
+
+.main-gear {
+  display: flex;
+  width: 1100px;
+  margin: 0 auto;
+}
+
+.gear-img {
+  width: 50%;
+}
+.gear-desc h1 {
+  font-size: 38px;
+}
+.btn-3 {
+  background-color: #e02c6d;
+  color: white;
+  padding: 10px 24px;
+  border: none;
+}
+/* footer start */
+footer {
+  background-color: #13052f;
+  color: white;
+  text-align: center;
+  padding: 20px;
+}
+footer h2 {
+  margin: 5px;
+}
+footer p {
+  margin: 2px;
+}
+
+.social-media {
+  margin-top: 10px;
+}
+.social {
+  margin-right: 10px;
 }
