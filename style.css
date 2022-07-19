@@ -203,3 +203,44 @@ footer p {
 .social {
   margin-right: 10px;
 }
+
+/* responsive */
+@media only screen and (max-width: 576px) {
+  header {
+    width: 100%;
+    flex-direction: column;
+  }
+  .link-item nav ul {
+    display: none;
+  }
+
+  .main-camera {
+    width: 100%;
+    flex-direction: column-reverse;
+  }
+
+  .main-camera .main-camera-desc {
+    width: 100%;
+    text-align: center;
+  }
+
+  .main-camera .main-camera-image {
+    width: 100%;
+    border: none;
+  }
+
+  .all-market-icon {
+    display: flex;
+    width: 100%;
+    flex-wrap: wrap;
+  }
+  .Alibaba,
+  .Amazon,
+  .Daraz,
+  .Ebay,
+  .Rakuten,
+  .Target,
+  .Walmart {
+    margin: 10px 20px;
+  }
+}
