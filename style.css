@@ -1,0 +1,86 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap");
+
+* {
+  /* margin: 0;
+  padding: 0; */
+}
+
+body {
+  font-family: "Poppins", sans-serif;
+}
+/* header start */
+header {
+  width: 1100px;
+  display: flex;
+  margin: 0 auto;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.link-item nav ul {
+  display: flex;
+}
+
+.link-item ul li {
+  list-style: none;
+  margin-right: 34px;
+}
+
+.link-item ul li a {
+  text-decoration: none;
+  color: #3a3a3a;
+  font-weight: bold;
+}
+
+.fa-magnifying-glass.icon-head {
+  color: #000000;
+}
+
+.fa-cart-shopping.icon-head {
+  color: #000000;
+}
+
+.link-item nav ul a:hover {
+  border-bottom: 3px solid orchid;
+  transition: 0.5s;
+}
+
+/* camera start */
+
+.main-camera {
+  width: 1100px;
+  display: flex;
+  align-items: center;
+  margin: 50px auto;
+}
+
+.main-camera .main-camera-desc {
+  width: 50%;
+}
+
+.main-camera .camera-tittle {
+  font-size: 43px;
+  margin-bottom: 6px;
+}
+
+.fa-arrow-right.first-arrow {
+  margin-left: 8px;
+}
+.btn {
+  /* display: flex;
+  align-items: center; */
+  background-color: #e02c6d;
+  color: white;
+  width: 196px;
+  height: 44px;
+  border-radius: 41px;
+  border: none;
+}
+
+.main-camera .main-camera-image {
+  width: 50%;
+  margin-left: 136px;
+  border: 1px solid rgb(225, 212, 212);
+  border-radius: 50%;
+  padding: 10px;
+}
