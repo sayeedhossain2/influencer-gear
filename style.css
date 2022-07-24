@@ -224,7 +224,7 @@ footer {
   color: white;
   text-align: center;
   padding: 20px;
-  margin-top: -5px;
+  margin-top: -7px;
 }
 footer h2 {
   margin: 5px;
@@ -275,7 +275,8 @@ footer p {
 
   .main-camera .main-camera-image {
     width: 100%;
-    margin-left: -5px;
+    /* margin-left: -5px; */
+    margin: 0;
     display: flex;
     justify-content: center;
     padding: 0px;
@@ -366,7 +367,7 @@ footer p {
     font-size: 40px;
     color: crimson;
     border-bottom: 10px dotted rgb(214, 102, 23);
-    width: 400px;
+    width: 240px;
     margin: 0 auto;
   }
 
@@ -381,7 +382,7 @@ footer p {
   }
 
   .card .card-img img {
-    width: 390px;
+    width: 270px;
     transition: transform 0.8s;
   }
 
@@ -390,7 +391,7 @@ footer p {
   }
 
   .card .card-info h1 {
-    font-size: 46px;
+    font-size: 25px;
     color: rgb(255, 149, 1);
     transition: transform 0.5s;
   }
@@ -400,7 +401,7 @@ footer p {
   }
 
   .card .card-info .price {
-    font-size: 46px;
+    font-size: 30px;
     color: rgb(11, 194, 26);
     font-weight: bold;
     transition: transform 0.5s;
@@ -431,11 +432,22 @@ footer p {
     width: 100%;
     text-align: center;
   }
+  .main-gear .gear-img img {
+    width: 270px;
+  }
 
   .gear-desc {
     width: 100%;
     text-align: center;
     margin: 10px 0;
+  }
+
+  .gear-desc h1 {
+    font-size: 30px;
+    padding: 0 47px;
+  }
+  .gear-desc p {
+    padding: 0 40px;
   }
 
   .btn-3 {
